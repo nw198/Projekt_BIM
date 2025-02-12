@@ -15,16 +15,14 @@
 </head>
 <body>
 
-<a-scene background="color: #FAFAFA"> <!-- Heller Hintergrund -->
+<a-scene background="color: #333333">
   <a-assets>
     <a-asset-item id="building"></a-asset-item>
   </a-assets>
 
-  <!-- Helle Beleuchtung -->
-  <a-light type="ambient" color="#FFFFFF" intensity="1.2"></a-light> 
-  <a-light type="directional" color="#FFFFFF" intensity="2.0" position="2 5 3"></a-light>  
-  <a-light type="point" color="#FFFFFF" intensity="1.5" position="-2 3 1"></a-light>  
-  <a-light type="spot" color="#FFFFFF" intensity="1.8" position="0 4 -2" angle="45"></a-light>  
+  <!-- Beleuchtung -->
+  <a-light type="ambient" intensity="0.7"></a-light> 
+  <a-light type="directional" intensity="1.2" position="1 3 2"></a-light>  
 
   <a-entity id="modelEntity" position="0 1 -3" scale="1 1 1"></a-entity>
 
